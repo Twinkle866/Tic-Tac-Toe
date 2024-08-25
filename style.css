@@ -1,0 +1,81 @@
+* {
+      margin: 0;
+      padding: 0;
+      font-family: "Nunito";
+}
+
+body {
+      background-color: #FF6969;
+      text-align: center;
+}
+
+.title {
+      color: #FFD700;
+      text-align: center;
+      font-size: 45px;
+      text-shadow: 4px 4px 4px black;
+}
+
+.new-btn {
+      background-color: #3e001f;
+      padding:0.5rem;
+      color:#FFF5E1;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      border: none;
+      font-size: 1.25rem;
+      margin-top: 25px;
+       
+}
+
+.container {
+      height: 68vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.game {
+      width: 60vmin;
+      height: 60vmin;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5vmin;
+
+}
+
+.box {
+      height: 18vmin;
+      width: 18vmin;
+      background-color: #FFF5E1;
+      border-radius: 14px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      font-size: 8vmin;
+      font-weight: 600;
+      color:#0C1844;
+}
+
+.msg{
+      font-size:25px;
+      margin-bottom:10px;
+      color:#000000;
+      font-weight: 650;
+     
+}
+
+.hide{
+      display:none;
+}
+
+.reset-btn {
+      background-color: #3e001f;
+      padding:0.5rem;
+      color:#FFF5E1;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      border: none;
+      font-size: 1.25rem;
+       
+}
